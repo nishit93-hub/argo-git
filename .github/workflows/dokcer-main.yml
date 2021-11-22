@@ -15,5 +15,8 @@ jobs:
     - name: docker build wordpress
       run: |
         docker build ./wordpress-dockerfile -t nishit2408/wordpress:1.0.0
+    - name: docker push
+      run: |
+        docker push nishit2408/wordpress:1.0.0
 
 
