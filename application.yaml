@@ -9,7 +9,7 @@ spec:
   source:
     repoURL: https://github.com/nishit93-hub/argo-git.git
     targetRevision: main
-    path: wordpress 
+    path: kustomize/base 
   destination: 
     server: https://kubernetes.default.svc
     namespace: default
