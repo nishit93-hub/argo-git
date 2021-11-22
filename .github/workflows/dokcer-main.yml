@@ -10,6 +10,6 @@ jobs:
     - uses: actions/checkout@v2
     - name: docker build wordpress
       run: |
-        docker build ./wordpress -t nishit2408/wordpress:1.0.0
+        docker build ./wordpress-dockerfile -t nishit2408/wordpress:1.0.0
 
 
