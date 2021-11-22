@@ -8,7 +8,7 @@ spec:
 
   source:
     repoURL: https://github.com/nishit93-hub/argo-git.git
-    targetRevision: master
+    targetRevision: main
     path: wordpress 
   destination: 
     server: https://kubernetes.default.svc
