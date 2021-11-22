@@ -13,7 +13,7 @@ jobs:
         DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
     - name: docker build wordpress
       run: |
-        docker build ./wordpress-dockerfile -t nishit2408/wordpress:1.0.0
+        docker build ./wordpress-dockerfile -t nishit2408/wordpress:1.0
     - name: docker push
       run: |
-        docker push nishit2408/wordpress:1.0.0
+        docker push nishit2408/wordpress:1.0
