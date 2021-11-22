@@ -11,5 +11,6 @@ jobs:
       env:
         DOCKER_USER: ${{ secrets.DOCKER_USER }}   
         DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}  
+    - name: docker build wordpress
       run: |
-        docker login -u $DOCKER_USER -p $DOCKER_PASSWORD
+        docker build ./wordpress -t nishit2408/wordpress:1.0.0
